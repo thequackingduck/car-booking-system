@@ -99,5 +99,6 @@ if(isset($_POST['submit'])){
 		</div>
 	</div>
 </body>
+<script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script>
 
 </html>

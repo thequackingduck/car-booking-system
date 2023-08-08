@@ -24,8 +24,8 @@ if(isset($_POST['submit'])){
     WHERE id=$id";
     $result = mysqli_query($con, $sql);
     if($result){
-        echo "Data updated successfully";
-	  // header('location:display.php');
+       // echo "Data updated successfully";
+	  header('location:display.php');
     }else{
         die(mysqli_error($con));
     }
@@ -113,5 +113,5 @@ if(isset($_POST['submit'])){
 		</div>
 	</div>
 </body>
-
+<script src="https://unpkg.com/sweetalert2@7.8.2/dist/sweetalert2.all.js"></script>
 </html>
